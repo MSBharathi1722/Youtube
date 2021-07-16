@@ -1,0 +1,7 @@
+
+.side-navbar #home-icon-container{
+  padding-top: 50px;
+}
+.side-navbar #home-icon-container, #explore-icon-container, #history-icon-container{
+  cursor: pointer;
+}

@@ -8,4 +8,6 @@ export default class Router extends EmberRouter {
 
 Router.map(function () {
   this.route('home');
+  this.route('watch',{path: "/watch/:videoId"});
+  this.route('search',{path: "/search/:searchQuery"});
 });

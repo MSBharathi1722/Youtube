@@ -1,1 +1,9 @@
 {{yield}}
+<img alt="watch-it-logo" class="logo" src="assets/images/watchIt-logo.png" height="30px">
+<form>
+ 	<Input aria-label="search" @type="text" placeholder="Search.." @value={{this.searchQuery}} />
+ 	<LinkTo @route="search" @model="{{this.searchQuery}}">
+    <button type="submit"><img src="assets/icons/search-solid.svg" alt="search-icon" height="15px"> </button>
+  </LinkTo>
+</form>
+<img alt="sign-in" class="sign-in" src="assets/images/sign-in.png" height="40px">

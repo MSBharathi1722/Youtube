@@ -1,0 +1,9 @@
+{{page-title "Watch"}}
+{{!-- template-lint-disable no-forbidden-elements --}}
+<script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+
+<div id="ytplayer">
+  <iframe width="1300" height="750" title="Youtube Video" src="https://www.youtube.com/embed/{{this.model}}"></iframe>
+</div>
+
+{{outlet}}
